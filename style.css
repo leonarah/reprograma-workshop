@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    background-color: rgba(161, 202, 197, 0.103);
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+/* CAPA */
+
+.capa{
+    background: url(./Imagens/foto.jpg) center no-repeat;
+    background-size: cover;
+    height: 80vh;
+    text-align: center;
+    padding-top: 1rem;
+    color: rgb(11, 9, 134);
+}
+
+.capa_titulo{
+    font-size: 3rem;
+}
+
+.capa_subtitulo{
+    font-size: 2rem;
+    margin: 20px;
+}
+
+.botao_branco{
+    border-radius: 2rem;
+    background-color: white;
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+.descricao{
+    display: flex;
+    width: 90%;
+    align-content: center;
+}
+
+.descricao_esquerda{
+    width: 40%;
+    margin: 40px;
+}
+
+.sobre_mim{
+    color: rgb(161, 161, 161);
+    font-size: 35px;
+    line-height: 3rem;
+    margin: 30px;
+}
+
+.paragrafo1{
+    font-size: 24px;
+    margin: 30px;
+}
+
+.paragrafo2{
+    font-size: 18px;
+    margin: 30px;
+}
+
+.botao_cv{
+    border: blue solid 2px;
+    border-radius: 3rem;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: blue;
+    margin: 30px;
+}
+
+.descricao_direita{
+    width: 40%;
+    margin: 40px;
+    padding-top: 4rem; 
+}
+
+.habilidades{
+    font-size: 20px;
+}
+
+ul{
+    padding-left: 2rem;
+    font-size: 1.2rem;
+}
+
+li{
+    line-height: 2rem;
+}
+
+.redes-sociais{
+    text-align: center;
+}
+
+.quadradinho{
+    display: inline-block;
+    background-color: blue;
+    width: 10%;
+    color: white;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+img{
+    height: 50px;
+}
+
+h5{
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+footer{
+    color: gray;
+    font-size: 20px;
+    margin: 3rem;
+    text-align: center;
+}
